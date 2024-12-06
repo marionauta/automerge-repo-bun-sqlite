@@ -3,6 +3,20 @@
 An [automerge][automerge] [repo][automerge-repo] storage adapter that uses
 [bun:sqlite][bunsqlite] to store documents.
 
+## Install
+
+Get the package from npm:
+
+```sh
+bun install automerge-repo-storage-bun-sqlite
+```
+
+or from jsr:
+
+```sh
+bunx jsr add @marionauta/automerge-repo-bun-sqlite
+```
+
 ## Usage
 
 ```typescript
